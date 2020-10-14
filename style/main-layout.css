@@ -23,6 +23,7 @@ body{
     display:flex;
     justify-content: end;
     font-size: xx-large;
+    padding-right: 10px;
 }
 
 .start-button{
@@ -36,9 +37,13 @@ body{
     max-width:100px;
     max-height:30px;
 }
-.timer{
+.timer-container{
     display: flex;
     flex-flow: column wrap;
     justify-content: space-evenly;
     align-content: center;
+}
+.timer{
+    display:flex;
+    justify-content: center;
 }
