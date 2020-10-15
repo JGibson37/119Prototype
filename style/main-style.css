@@ -1,14 +1,26 @@
 .main-container{
     background-color: aqua;
 }
-.title-bar {
+.title-bar,
+.main-title-bar {
     background-color: cadetblue;
+    font-weight: bold;
 }
-
 .start-button{
-    background-color: cornflowerblue;
+    background-color: aqua;
 }
 .timer-container{
-    background: darkslategrey;
-
+    background: cornflowerblue;
+}
+.timer{
+    font-size: 3em;
+}
+.questions{
+    background-color: cornflowerblue;
+}
+.determination-questions{
+    background-color: cornflowerblue;
+}
+.plans-list{
+    background-color: cornflowerblue;
 }

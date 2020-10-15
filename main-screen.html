@@ -8,18 +8,71 @@
     <title>1-1-9 Prototype Main</title>
 </head>
 <body>
-    <container class="main-container">
-        <container class="title-bar">
-            <div class="title">1-1-9 Prototype</div>
-            <div class="add-plan-button">&#9764;</div>
+    <container class="beginning-main-container">
+        <container class="main-container">
+            <container class="main-title-bar">
+                <div class="title">1-1-9 Prototype</div>
+                <div class="add-plan-button">&#9764;</div>
+            </container>
+            <container class="start-button">
+                <button class="start-timer-button" type="button">Start Alarm</button>
+            </container>
+            <container class="timer-container">
+                <div class= "timer">00:00</div>
+                <button type="button">Add 30 Seconds</button>
+                <button type="button">Add 1 Minute</button>
+            </container>
         </container>
-        <container class="start-button">
-            <button class="start-timer-button" type="button">Start Alarm</button>
+    </container>
+    <container class="plan-screen-container">
+        <container class="main-container">
+            <container class="title-bar">
+                <div class="title">1-1-9 Plans Prototype</div>
+            </container>
+            <container class="questions-bar">
+                <p> Add a New Plan +</p>
+            </container>
+            <container class="plans-list">
+                <p id="condition-plan">Plan- Determine Condition</p>
+                <p id="plan-1">Plan - Epilepsy</p>
+                <p id="plan-2">Plan - Bee Allergy</p>
+                <p id="plan-3">Plan - Asthma</p>
+            </container>
         </container>
-        <container class="timer-container">
-            <div class= "timer">00:00</div>
-            <button type="button">Add 30 Seconds</button>
-            <button type="button">Add 1 Minute</button>
+    </container>
+    <container class="determination-plan-container">
+        <container class="main-container">
+            <container class="title-bar">
+                <div class="title">1-1-9 Determination Plan Prototype</div>
+            </container>
+            <container class="questions-bar">
+                <p>New Question +</p>
+            </container>
+            <container class="questions">
+                <p> 1. Am I breathing?</p>
+                <p> Y or N</p>
+                <p> 2. Am I seizing? (shaking violently)</p>
+                <p> Y or N</p>
+                <p> 3. Have I broken out in hives?(blotchy/bumpy red skin)</p>
+                <p> Y or N</p>
+                <p> </p>
+            </container>
+        </container>
+    </container>
+    <container class="bee-allergy-plan-container">
+        <container class="main-container">
+            <container class="title-bar">
+                <div class="title">1-1-9 Plans Prototype</div>
+            </container>
+            <container class="questions-bar">
+                <p>New Question +</p>
+            </container>
+            <container class="questions">
+                <p> Am I alert?</p>
+                <p> Y or N</p>
+                <p> With instructions, are you comfortable using my epi pen?</p>
+                <p> Y or N</p>
+            </container>
         </container>
     </container>
 </body>
